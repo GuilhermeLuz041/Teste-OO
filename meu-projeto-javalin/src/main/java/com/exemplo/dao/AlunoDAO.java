@@ -21,7 +21,7 @@ public class AlunoDAO {
             ps.setString(1, aluno.getMatricula());
             ps.setString(2, aluno.getNome());
             ps.setString(3, aluno.getCpf());
-            ps.setDate(4, Date.valueOf(aluno.getDataNascimento())); // conversão LocalDate -> Date
+            ps.setDate(4, Date.valueOf(aluno.getDataNascimento()));
             ps.setString(5, aluno.getEndereco());
             ps.setString(6, aluno.getTelefone());
             ps.setString(7, aluno.getEmail());
